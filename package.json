@@ -1,0 +1,19 @@
+{
+  "name": "fullstackproject",
+  "version": "1.0.0",
+  "description": "A Node project for Authentication",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Aniket",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}

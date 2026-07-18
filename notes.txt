@@ -1,0 +1,19 @@
+1.  "express": "^5.2.1":
+    The ^ symbol in package.json is called the caret version range. It tells npm which versions of a package are allowed to be installed. 
+    Install version 5.2.1 or any newer version that does not change the major version.
+    So npm can install:✅ 5.2.1✅ 5.2.2✅ 5.3.0✅ 5.9.8
+    But it will not install:❌ 6.0.0 ❌ 7.1.0
+    5.2.1
+    │ │ │
+    │ │ └── Patch (Bug fixes, Security fixes, No new features, No breaking changes) Ex: 5.2.1, 5.2.2, 5.2.3
+    │ └──── Minor (New features, Backward compatible) Ex: 5.2.1, 5.3.0, 5.4.0
+    └────── Major (Breaking changes, Existing code may stop working) 5.8.1 → 6.0.0
+
+
+Command: 
+npm init
+create index.js
+npm install express
+npm install nodemon --Moniotor Node and restarts it when it feels new changes in the code
+npm run start
+npm install dotenv
