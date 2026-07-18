@@ -17,3 +17,8 @@ npm install express
 npm install nodemon --Moniotor Node and restarts it when it feels new changes in the code
 npm run start
 npm install dotenv
+npm i cors
+npm i mongoose
+
+iamaniket58_db_user
+ZiovnMxKAA0Rsr8q
