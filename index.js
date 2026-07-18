@@ -2,6 +2,9 @@ import express from "express"
 import dotenv from "dotenv"
 import cors from 'cors'
 import db from "./utils/db.js"
+
+//import all routes
+import userRoutes from "./routes/user.routes.js"
 const app = express()
 dotenv.config();
 
@@ -24,6 +27,9 @@ app.get('/aniket', (req, res) => {
 
 //Connect to DB
 db();
+
+//userRoutes
+app.use("/api/v1/users/",userRoutes)
 console.log("djfjf")
 console.log(process.env.PORT)
 app.listen(process.env.PORT, () => {
